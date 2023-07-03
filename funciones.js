@@ -104,3 +104,18 @@ function imprArraySinQuintaPosic(array) {
 }
 const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 imprArraySinQuintaPosic(num);
+
+// 8. ARRAY MULTIPLOCADO POR UN NUMERO
+
+console.log("XXX 8. ARRAY MULTIPLOCADO POR UN NUMERO XXXXXXXXXX");
+
+function multiplicarArray(array, numero) {
+  for (let i = 0; i < array.length; i++) {
+    const resultado = array[i] * numero;
+    console.log(resultado);
+  }
+}
+const matriz = [1, 2, 3, 4, 5];
+const numero = 2;
+
+multiplicarArray(matriz, numero);
