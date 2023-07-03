@@ -1,4 +1,4 @@
-// 1. PAR O IMPAR//
+// 1. PAR O IMPAR
 
 function parImpar(num) {
   var num;
@@ -12,7 +12,7 @@ function parImpar(num) {
 
 parImpar();
 
-// 2. MAYOR O MENOR//
+// 2. MAYOR O MENOR
 
 function mayorOmenor(numero1, numero2) {
   if (numero1 > numero2) {
@@ -25,3 +25,17 @@ function mayorOmenor(numero1, numero2) {
 }
 
 mayorOmenor(5, 7);
+mayorOmenor(9, 9);
+
+//3. MULTIPLO DE 5
+
+function MultiploDeCinco(num) {
+  if (num % 5 === 0) {
+    console.log(num + " es múltiplo de 5.");
+  } else {
+    console.log(num + " No es múltiplo de 5.");
+  }
+}
+
+MultiploDeCinco(25);
+MultiploDeCinco(8);
