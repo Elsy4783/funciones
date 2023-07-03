@@ -39,3 +39,13 @@ function MultiploDeCinco(num) {
 
 MultiploDeCinco(25);
 MultiploDeCinco(8);
+
+// 4. NUMEROS DESDE CERO HASTA NUMERO DADO
+
+const imprNumHasta = (num) => {
+  for (let i = 0; i <= num; i++) {
+    console.log(i);
+  }
+};
+
+imprNumHasta(10);
