@@ -23,11 +23,17 @@ function mayorOmenor(numero1, numero2) {
     console.log("Los números ingresados con Iguales");
   }
 }
+console.log("XXXXXXXXXXXXXXXXXXXXXX 2. MAYOR O MENOR XXXXXXXXXXXXXXXXXXXXXX");
 
 mayorOmenor(5, 7);
+
+console.log("XXXXXXXXXXXXXXXXXXXXXX 2. MAYOR O MENOR XXXXXXXXXXXXXXXXXXXXXX");
+
 mayorOmenor(9, 9);
 
 //3. MULTIPLO DE 5
+
+console.log("XXXXXXXXXXXXXXXXX 3. MULTIPLO DE 5 XXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
 function MultiploDeCinco(num) {
   if (num % 5 === 0) {
@@ -38,9 +44,12 @@ function MultiploDeCinco(num) {
 }
 
 MultiploDeCinco(25);
+
 MultiploDeCinco(8);
 
-// 4. NUMEROS DESDE CERO HASTA NUMERO DADO
+// 4. IMPRIMIR NUMEROS DESDE CERO HASTA NUMERO DADO
+
+console.log("XXXX 4. IMPRIMIR NUMEROS DESDE CERO HASTA NUMERO DADO XXXXXXX");
 
 const imprNumHasta = (num) => {
   for (let i = 0; i <= num; i++) {
@@ -48,4 +57,51 @@ const imprNumHasta = (num) => {
   }
 };
 
-imprNumHasta(10);
+imprNumHasta(3);
+
+// 5. IMPRIMIR PALABRA
+
+console.log("XXXXXXXXXXXXX 5. IMPRIMIR PALABRA XXXXXXXXXXXXXXXXXXXXXXXXXX");
+
+function imprimirPalabra(palabra, num) {
+  for (let i = 0; i < num; i++) {
+    console.log(palabra);
+  }
+}
+
+imprimirPalabra("hola", 2);
+
+// 6. IMPRIMIR ARRAYS
+
+console.log("XXXXXXXXXXXXXXX 6. IMPRIMIR ARRAYS XXXXXXXXXXXXXXXXXXXXXXXXXX");
+
+function imprimirArray(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+}
+
+const paises = ["Venezuela", "Argentina", "Chile", "Colombia", "Brasil"];
+imprimirArray(paises);
+
+console.log(
+  "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+);
+
+const nombres = ["Juan", "María", "Pedro"];
+imprimirArray(nombres);
+
+// 7. IMPRIMIR UN ARRAYS EXCEPTO LA 5TA. POSICIÓN
+
+console.log("XXX 7. IMPRIMIR UN ARRAYS EXCEPTO LA 5TA. POSICIÓN XXXXXXXXXX");
+
+function imprArraySinQuintaPosic(array) {
+  for (let i = 0; i < array.length; i++) {
+    if (i !== 4) {
+      // La quinta posición tiene índice 4 (el índice comienza en 0)
+      console.log(array[i]);
+    }
+  }
+}
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+imprArraySinQuintaPosic(num);
