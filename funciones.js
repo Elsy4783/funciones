@@ -98,7 +98,6 @@ console.log("XXX 7. IMPRIMIR UN ARRAYS EXCEPTO LA 5TA. POSICIÓN XXXXXXXXXX");
 function imprArraySinQuintaPosic(array) {
   for (let i = 0; i < array.length; i++) {
     if (i !== 4) {
-      // La quinta posición tiene índice 4 (el índice comienza en 0)
       console.log(array[i]);
     }
   }
