@@ -4,7 +4,7 @@ function parImpar(num) {
   var num;
   num = prompt("Ingrese un número y el programa le dirá si es Par o Impar");
   if (num % 2 == 0) {
-    console.log("El número  " + num + " es Par");
+    document.write("El número  " + num + " es Par");
   } else {
     document.write("El número  " + num + " es Impar");
   }
@@ -107,7 +107,7 @@ imprArraySinQuintaPosic(num);
 
 // 8. ARRAY MULTIPLOCADO POR UN NUMERO
 
-console.log("XXX 8. ARRAY MULTIPLOCADO POR UN NUMERO XXXXXXXXXX");
+console.log("XXX 8. ARRAY MULTIPLICADO POR UN NUMERO XXXXXXXXXX");
 
 function multiplicarArray(array, numero) {
   for (let i = 0; i < array.length; i++) {
